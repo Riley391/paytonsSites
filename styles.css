@@ -1,0 +1,62 @@
+html {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #32ad78;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.site-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;;
+    width: 300px;
+    height: 250px;
+    border-radius: 15%;
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+
+.site-title {
+    font-size: 20px;
+}
+
+.site-year {
+    font-size: 14px;
+}
+
+.card-text {
+    padding: 2px;
+}
+
+.box-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
