@@ -1,62 +1,85 @@
+@keyframes raise {
+  from {
+    box-shadow: 0 0 0 rgb(255, 108, 133);
+  }
+  to {
+    box-shadow: 4px 4px 0 rgb(255, 108, 133);
+  }
+}
+
 html {
-    margin: 0;
+  margin: 0;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #32ad78;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: pink;
 }
 
 p {
-    margin: 0;
+  margin: 0;
 }
 
 img {
-    border-radius: 10%;
-    margin-bottom: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif;
-    color: #FFF;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgb(255, 60, 92);
 }
 
 .site-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;;
-    width: 300px;
-    height: 250px;
-    border-radius: 15%;
-    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.5);
-    background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 250px;
+  border-radius: 15%;
+  background-color: white;
+}
+
+.site-box-mouseenter {
+  border-radius: 15%;
+  animation: raise 0.25s forwards;
+}
+
+.site-box-mouseleave {
+  border-radius: 15%;
+  animation: raise 0.15s reverse forwards;
+}
+
+.site-box-shadow {
+  border-radius: 15%;
+  box-shadow: 4px 4px 0 rgb(255, 108, 133);
 }
 
 .site-title {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .site-year {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .card-text {
-    padding: 2px;
+  padding: 2px;
 }
 
 .box-box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 }
