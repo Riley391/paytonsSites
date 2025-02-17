@@ -39,6 +39,12 @@ const siteArray = [
     "assets/thumbnails/freecodecamp.jpg",
     "2014"
   ),
+  new SiteCard(
+    "Daily Random Color",
+    "#",
+    "assets/thumbnails/random-daily-color.jpg",
+    "2025"
+  ),
 ];
 
 //add site cards to page HTML
